@@ -58,6 +58,7 @@
 }
 @media (max-width: 600px){
     .header {
-        width:50vh;   /* taller banner on mobile */
+        width:80vh;
+        height: 60vw;   
     }
 }

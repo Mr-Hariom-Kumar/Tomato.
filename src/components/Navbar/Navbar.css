@@ -93,6 +93,6 @@ gap: 40px;
 }
 @media (max-width:600px){
     .navbar{
-        width: 50vh;
+        width: 80vh;
     }
 }
