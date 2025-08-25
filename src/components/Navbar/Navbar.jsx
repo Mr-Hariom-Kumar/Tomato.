@@ -11,9 +11,9 @@ const Navbar = ({setShowLogin}) => {
        <Link to='/'><img src={assets.logo} alt="logo"/></Link> 
         <ul className='navbar-menu'>
             <Link to='/'><li onClick={()=>setMenu("home")} className={menu==="home"?"active":""}>home</li></Link>
-            <li onClick={()=>setMenu("menu")} className={menu==="menu"?"active":""}>menu</li>
-            <li onClick={()=>setMenu("mobile-app")} className={menu==="mobile-app"?"active":""}>mobile-app</li>
-            <li onClick={()=>setMenu("contact-us")} className={menu==="contact-us"?"active":""}>contact us</li>
+            <a href='#explore-menu'><li onClick={()=>setMenu("menu")} className={menu==="menu"?"active":""}>menu</li></a>
+            <Link to ='/order'><li onClick={()=>setMenu("mobile-app")} className={menu==="mobile-app"?"active":""}>my order</li></Link>
+            <a href='#footer'><li onClick={()=>setMenu("contact-us")} className={menu==="contact-us"?"active":""}>contact us</li></a>
         </ul>
         <div className='navbar-right'>
             <img src={assets.search_icon} alt=''/>
