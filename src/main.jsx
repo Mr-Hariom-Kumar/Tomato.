@@ -12,3 +12,5 @@ createRoot(document.getElementById('root')).render(
   </StoreContextProvider>
   </BrowserRouter>,
 )
+
+//minor bug fixed
